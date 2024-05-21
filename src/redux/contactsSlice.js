@@ -1,7 +1,6 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, createSelector } from "@reduxjs/toolkit";
 import { fetchContacts, addContact, deleteContact } from "./contactsOps";
 import { selectNameFilter } from "./filtersSlice";
-import { createSelector } from "@reduxjs/toolkit";
 const handlePending = (state) => {
   state.isLoading = true;
 };
