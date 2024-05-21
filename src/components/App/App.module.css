@@ -5,3 +5,13 @@
 .container {
   margin: 100px;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+}

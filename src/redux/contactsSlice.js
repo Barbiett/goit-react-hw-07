@@ -55,5 +55,6 @@ export const selectFilteredContacts = createSelector(
     return filteredContacts;
   }
 );
-
+export const isLoading = (state) => state.contacts.loading;
+export const isError = (state) => state.contacts.error;
 export default slice.reducer;
